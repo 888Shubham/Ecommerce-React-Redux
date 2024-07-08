@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Ecommerce-React-Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an eCommerce web application built using React and Redux. It allows users to browse products, add them to the cart, and proceed with the checkout process. The application is designed to demonstrate the use of React for building user interfaces and Redux for state management.
 
-## Available Scripts
+## Deployment Link
 
-In the project directory, you can run:
+The application is deployed and can be accessed at the following link:
 
-### `npm start`
+[Deployment Link]([https://your-deployment-url.com](https://668b82d2f28330c4244ba892--statuesque-pika-e8c936.netlify.app/))
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Navbar**
+  - Show cart items count
+  - Show relevant navigation links
 
-### `npm test`
+- **All Products Page**
+  - Show list of products from the API
+  - Each product is editable inline by clicking on the “pencil” button. On finishing editing, an alert/notification is shown.
+  - Each product is deletable by clicking the delete button, with an alert/notification shown upon deletion.
+  - Implement a sort button to sort products by “price” and a cross button to remove the sort.
+  - Button to add a product to the cart
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Create Page**
+  - On clicking the Add button, the product is added to the database with an alert/notification shown.
 
-### `npm run build`
+- **Product Detail Page**
+  - Show all details of a product
+  - Button to add the product to the cart
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Cart Page**
+  - Show all items in the cart
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **React**: For building the user interface
+- **Redux**: For state management
+- **React Router**: For routing
+- **Redux Thunk**: For handling asynchronous actions
+- **Bootstrap**: For styling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+These instructions will help you set up and run the project on your local machine for development and testing purposes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+Make sure you have the following software installed:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js
+- npm (Node Package Manager)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+# Clone the repository:
+git clone https://github.com/888Shubham/Ecommerce-React-Redux
 
-### Analyzing the Bundle Size
+# Navigate into the project directory:
+cd TodoList-App-uinsg-React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Install dependencies:
+npm install
+ Start the development server and view the calculator:
+npm start
 
-### Making a Progressive Web App
+# Open http://localhost:3000 in your web browser to use the calculator.
+# Contributions are welcome. If you'd like to contribute to this project:
+# - Fork the repository
+# - Create a new branch
+# - Submit a pull request
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Screenshots
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 3](screenshots/screenshot3.png)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
