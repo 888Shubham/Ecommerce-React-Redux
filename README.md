@@ -6,7 +6,7 @@ This project is an eCommerce web application built using React and Redux. It all
 
 The application is deployed and can be accessed at the following link:
 
-[Deployment Link]([https://your-deployment-url.com](https://668b82d2f28330c4244ba892--statuesque-pika-e8c936.netlify.app/))
+[Deployment Link](https://668b82d2f28330c4244ba892--statuesque-pika-e8c936.netlify.app/)
 
 ## Features
 
